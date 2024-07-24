@@ -1,5 +1,4 @@
 import SectionPhotos from "@/components/SectionPhotos";
-import SectionVideos from "@/components/VideoHeader";
 import UpperMenu from "@/components/UpperMenu";
 import Image from "next/image";
 import Footer from "@/components/Footer";
@@ -11,10 +10,8 @@ export default function Home() {
       <section className="w-full h-[400px] flex items-center justify-center mb-[350px]">
         <video
           autoPlay
-          loop
           muted
-          no-control
-          no-controls
+          controls={false}
           className="absolute top-0 w-full h-[700px] object-cover no"
         >
           <source

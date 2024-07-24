@@ -3,10 +3,8 @@ const VideoHeader = () => {
     <section className="w-full h-[50px] flex items-center justify-center mb-[300px]">
       <video
         autoPlay
-        loop
         muted
-        no-control
-        no-controls
+        controls={false}
         className="absolute top-0 w-full h-[400px] object-cover no"
       >
         <source
