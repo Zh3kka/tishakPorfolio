@@ -8,7 +8,7 @@ const Films = () => {
         <div className="relative bg-gray-200 aspect-w-9 aspect-h-16 rounded-lg overflow-hidden shadow-lg">
           <video className="w-full h-full object-cover" loop controls>
             <source
-              src="https://utfs.io/f/d6969bbc-c3cf-449f-bb0a-c6480667f658-hagnzu.mp4"
+              src="https://www.youtube.com/watch?v=rmwYMiQr3-0"
               type="video/mp4"
             />
           </video>
@@ -16,7 +16,23 @@ const Films = () => {
         <div className="relative bg-gray-200 aspect-w-9 aspect-h-16 rounded-lg overflow-hidden shadow-lg">
           <video className="w-full h-full object-cover" loop controls>
             <source
-              src="https://utfs.io/f/66b07b48-91de-415f-b772-de3216c32f09-lq78dl.mp4"
+              src="https://www.youtube.com/watch?v=HfPmylvXd0U"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div className="relative bg-gray-200 aspect-w-9 aspect-h-16 rounded-lg overflow-hidden shadow-lg">
+          <video className="w-full h-full object-cover" loop controls>
+            <source
+              src="https://youtu.be/PKxKOmsQGZ4?si=jPeSpiSKlVbtTHDQ"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div className="relative bg-gray-200 aspect-w-9 aspect-h-16 rounded-lg overflow-hidden shadow-lg">
+          <video className="w-full h-full object-cover" loop controls>
+            <source
+              src="https://youtu.be/BWPs2A3b7EE?si=wZ3-ATGixW2RJCOL"
               type="video/mp4"
             />
           </video>

@@ -11,7 +11,7 @@ const VideoItem = ({ src }: { src: any }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <video
-        className="w-full h-full object-cover"
+        className="w-full h-[450px] object-cover"
         onMouseEnter={(e) => (e.target as HTMLVideoElement).play()}
         onMouseLeave={(e) => (e.target as HTMLVideoElement).pause()}
         loop

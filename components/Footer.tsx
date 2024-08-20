@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,10 +14,22 @@ const Footer = () => {
           </a>
         </div>
         <div className="mb-4 lg:mb-0 flex space-x-4">
-          <a href="#" className="text-gray-600 hover:text-black">
+          <a
+            href="https://youtube.com/@danilatishkevich?si=-9_BUd4MD9sUcdKC"
+            className="text-gray-600 hover:text-black"
+          >
+            <FaYoutube size={24} />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100086759268723&mibextid=LQQJ4d"
+            className="text-gray-600 hover:text-black"
+          >
             <FaFacebook size={24} />
           </a>
-          <a href="#" className="text-gray-600 hover:text-black">
+          <a
+            href="https://www.instagram.com/tishkevich_productions"
+            className="text-gray-600 hover:text-black"
+          >
             <FaInstagram size={24} />
           </a>
         </div>

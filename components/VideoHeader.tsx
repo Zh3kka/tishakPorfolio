@@ -4,11 +4,13 @@ const VideoHeader = () => {
       <video
         autoPlay
         muted
+        loop
+        playsInline
         controls={false}
-        className="absolute top-0 w-full h-[400px] object-cover no"
+        className="absolute top-0 w-full h-[400px] object-cover"
       >
         <source
-          src="https://utfs.io/f/cb0dd44d-35e2-46e9-81b0-d94be6ef556b-w5i2t3.mp4"
+          src="https://www.youtube.com/watch?v=HfPmylvXd0U"
           type="video/mp4"
         />
         Your browser does not support the video tag.
